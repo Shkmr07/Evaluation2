@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+      #main {
+        position: relative;
+        font-family: DM Serif Display;
+        width: 100%;
+        margin: auto;
+      }
+
+      h3,
+      h1,
+      h2,
+      p,
+      span {
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .Logo {
+        background-color: #434ccd;
+        position: relative;
+
+        height: 304px;
+      }
+
+      .sub-logo > h3 {
+        height: 48px;
+        width: 102px;
+        color: white;
+        position: absolute;
+        top: 16px;
+        left: 135px;
+        letter-spacing: 1px;
+        font-size: 40px;
+      }
+
+      .sub-cata {
+        display: grid;
+        max-width: 324px;
+        grid-template-columns: repeat(4, 1fr);
+        position: absolute;
+        top: 28px;
+        left: 771px;
+        justify-items: center;
+        color: white;
+      }
+
+      .signUp {
+        width: 57px;
+        height: 24px;
+        padding: 13px 56.5px 11px 56.5px;
+        position: absolute;
+        top: 16px;
+        left: 1135px;
+        align-items: center;
+        color: white;
+        border: 1px solid gray;
+        border-radius: 5px;
+      }
+
+      .Contactus {
+        align-items: center;
+        position: absolute;
+        bottom: 97px;
+        left: 596px;
+        width: 249px;
+        height: 80px;
+      }
+      .Contactus > h1 {
+        font-size: 72px;
+        color: white;
+      }
+
+      .state {
+        width: 324px;
+        height: 32px;
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        bottom: 55px;
+        left: 558px;
+      }
+
+      .map {
+        position: relative;
+      }
+      .sub-map > img {
+        position: absolute;
+        width: 1170px;
+        height: 640px;
+        left: 135px;
+        top: 64px;
+        border: 1px solid red;
+      }
+
+      /* .form {
+        position: absolute;
+        top: 764px;
+        left: 135px;
+        display: grid;
+        grid-template-areas:
+          "four none"
+          "one two"
+          "three three";
+      }
+
+      .one {
+        grid-area: one;
+        width: ;
+        color: #e4e4e4;
+      }
+
+      .two {
+        grid-area: two;
+        width: 401px;
+        height: 76px;
+        background-color: #ffffff;
+        color: #e4e4e4;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+          rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      }
+      .three {
+        grid-area: three;
+        width: 834px;
+        height: 144px;
+        background-color: #ffffff;
+        color: #e4e4e4;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+          rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      } */
+      .four > h2 {
+        position: absolute;
+        left: 135px;
+        top: 764px;
+        width: 206px;
+        height: 64px;
+        font-size: 56px;
+        /* border: 3px solid red; */
+      }
+
+      .info > div:nth-of-type(1) > h2 {
+        width: 99px;
+        height: 64px;
+        position: absolute;
+        top: 764px;
+        left: 1035px;
+        font-size: 56px;
+        /* border: 3px solid red; */
+      }
+
+      .info-d > p {
+        position: absolute;
+        top: 863px;
+        left: 1105px;
+
+        width: 200px;
+        height: 48px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div class="Logo">
+        <div class="sub-logo">
+          <h3>LOGO</h3>
+        </div>
+
+        <div class="sub-cata">
+          <p>About</p>
+          <p>Portfolio</p>
+          <p>Blog</p>
+          <p>Contact</p>
+        </div>
+
+        <div class="signUp">
+          <span>Sign Up</span>
+        </div>
+
+        <div class="Contactus">
+          <h1>Contact</h1>
+        </div>
+
+        <div class="state"><p>Pro eu apeirian suavitate dissentiet</p></div>
+      </div>
+
+      <div class="map">
+        <div class="sub-map">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/8bd2/0104/b8e0d61f1f166cc7034ecd97003be3e7?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ox1V2iIgem6oHOtUQ-dYVFsCETiYmVgqak1ZkTCtzVa0Q84DhittVYJKC3sT6bPpX9-k8Y-JqsS0EAkHiIy6Wr66ShPzVJ7fd3Sk5P5vgrcPZ~MjRDeuYXA4m4hnlbErFKfz4I4gg5F8lWKjDgYQpS36FV8Lmg7AhSJnMtH0PTL376K7pJXhd9xR~A5kpNz~wPoZRikma8lOVnp~bdUOVOuqNha9o5ooFWbortu79cktHb8xtOutWTf2n4y94W5LA5otDLm4DeuErxg2dH5Mszmn4Ov4EZmUUibJ39xerkBrP3uX67eqGqxWCS5olpuNbfZlOqmRTsGO7yQlmE5lBw__"
+            alt="map"
+          />
+        </div>
+        <div class="four"><h2>MESSAGE</h2></div>
+        <!-- <div class="form">
+            <div class="one">Your name</div>
+            <div class="two">Your email</div>
+            <div class="three">Your contact</div>
+        </div> -->
+
+        <div class="info">
+          <div><h2>Info</h2></div>
+          <div class="info-d">
+            <!-- <span><i class="fa-solid fa-location-dot"></i></span> -->
+            <p>123 Dicunt Ancillae, Mea Homero Persequeris USA</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
